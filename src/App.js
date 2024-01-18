@@ -22,7 +22,8 @@ function App() {
       <div className='container'>
         <Router>
           <Navbar />
-          <Registration/>
+          {/* <Registration/> */}
+          <Login/>
 
           <Routes>
             <Route path='/home' element={<Home />} />

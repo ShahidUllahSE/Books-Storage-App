@@ -46,7 +46,7 @@ const Registration = () => {
             <p className="font-medium text-lg">Personal Details</p>
             <p>Please fill out all the fields.</p>
           </div>
-
+          <form className="mx-1 mx-md-4" onSubmit={(e) => register(e)}>
           <div className="lg:col-span-2">
             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
               <div className="md:col-span-5">
@@ -91,9 +91,9 @@ const Registration = () => {
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "type='submit' onSubmit={(e) => register(e)}>Submit</button>
                 </div>
               </div>
-
             </div>
           </div>
+</form>
         </div>
       </div>
     </div>
