@@ -27,10 +27,10 @@ function App() {
           {/* <Login/> */}
 
           <Routes>
-            <Route path='/home' element={<Home />} />
-            <Route path='/login' element={<Login />} />
-            <Route path='/logout' element={<Logout />} />
             <Route path='/register' element={<Registration />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/logout' element={<Logout />} />
             <Route path='/books' element={<Books />} />
             <Route path='/book' element={<Book/>} />
             <Route path='/contact' element={<Contact/>} />

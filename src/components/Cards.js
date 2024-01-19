@@ -7,10 +7,8 @@ const Cards = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Replace 'http://localhost:3001/api/cards' with your actual API endpoint
         const response = await axios.get('http://localhost:3001/api/books');
 
-        // Assuming the response data is an array of card objects
         setCardsData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
