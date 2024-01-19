@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <div>
       
-<body className="bg-blue-500">
+	  <body className="bg-gray-500">
+
 	<nav className="relative px-4 py-4 flex justify-between items-center bg-white">
 		<a className="text-3xl font-bold leading-none" href="#">
 			<svg className="h-10" alt="logo" viewBox="0 0 10240 10240">
@@ -26,12 +27,7 @@ const Navbar = () => {
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
 				</svg>
 			</li>
-			<li><Link className="text-sm text-blue-600 font-bold" to="/about">About Us</Link></li>
-			<li className="text-gray-300">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-				</svg>
-			</li>
+			
 
 			<li><Link className="text-sm text-blue-600 font-bold" to="/addbook">Add Book</Link></li>
 			<li className="text-gray-300">

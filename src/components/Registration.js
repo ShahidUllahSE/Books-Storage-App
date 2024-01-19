@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
-
+import { useNavigate } from 'react-router';
 
 const Registration = () => {
 
@@ -10,6 +10,8 @@ const Registration = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [address, setAddress] = useState('');
+
+  const naviagte = useNavigate();
 
   const register = async (e) => {
     e.preventDefault();
@@ -25,6 +27,7 @@ const Registration = () => {
       const registeredUserEmail = response.data.email;
 
       NotificationManager.success(`User ${registeredUserEmail} has been successfully registered`, "", 3000);
+      naviagte("/login");
     } catch (err) {
       console.log(err);
       NotificationManager.error(err.response.data, '', 3000);

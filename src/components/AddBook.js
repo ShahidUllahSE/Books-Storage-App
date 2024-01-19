@@ -45,13 +45,13 @@ const AddBook = () => {
 <div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
   <div className="container max-w-screen-lg mx-auto">
     <div>
-      <h2 className="font-bold text-center text-xl text-gray-600">Registration Form</h2>
-      <p className="text-gray-700 text-center mb-6">Please enter your correct information.</p>
+      <h2 className="font-bold text-center text-xl text-gray-600">Add Book</h2>
+      <p className="text-gray-700 text-center mb-6">Please enter correct details of book</p>
 
       <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
         <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
           <div className="text-gray-600">
-            <p className="font-medium text-lg">Personal Details</p>
+            <p className="font-medium text-lg">Book Details</p>
             <p>Please fill out all the fields.</p>
           </div>
           <form className="mx-1 mx-md-4" onSubmit={(e) => register(e)}>
@@ -63,7 +63,7 @@ const AddBook = () => {
                  onChange={(e) => setTitle(e.target.value)}
                  value={title}
                 type="text" 
-                name="Book_title" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='FullName'  />
+                name="Book_title" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder='Book Title'  />
               </div>
 
               <div className="md:col-span-5">
@@ -71,7 +71,7 @@ const AddBook = () => {
                 <input 
                 onChange={(e) => setauthor(e.target.value)}
                 value={author}
-                type="text" name="author" id="author" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"placeholder="email@domain.com" />
+                type="text" name="author" id="author" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"placeholder="Author Name" />
               </div>
 
 
@@ -80,7 +80,7 @@ const AddBook = () => {
                 <input 
                 onChange={(e) => setPrice(e.target.value)}
                 value={price}
-                type="text" name="edition" id="edition" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"  placeholder="Password" />
+                type="text" name="edition" id="edition" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"  placeholder="Price" />
               </div>
 
               <div className="md:col-span-5">
@@ -88,7 +88,7 @@ const AddBook = () => {
                 <input type="text"
                  onChange={(e) => setDesc(e.target.value)}
                  value={desc}
-                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
+                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Description" />
               </div>
 
 
@@ -97,7 +97,7 @@ const AddBook = () => {
                 <input type="text"
                  onChange={(e) => setUrl(e.target.value)}
                  value={url}
-                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
+                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Image URL" />
               </div>
 
               <div className="md:col-span-5">
@@ -105,7 +105,7 @@ const AddBook = () => {
                 <input type="text"
                  onChange={(e) => setEdition(e.target.value)}
                  value={edition}
-                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
+                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Book edition" />
               </div>
 
               <div className="md:col-span-5">
@@ -113,7 +113,7 @@ const AddBook = () => {
                 <input type="text"
                  onChange={(e) => setYear(e.target.value)}
                  value={year}
-                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Address" />
+                name="year" id="year" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="Published Year" />
               </div>
 
 
@@ -121,7 +121,7 @@ const AddBook = () => {
       
               <div className="md:col-span-5 text-right">
                 <div className="inline-flex items-end">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "type='submit' onSubmit={(e) => register(e)}>Submit</button>
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded " type='submit' onSubmit={(e) => register(e)}>Add</button>
                 </div>
               </div>
             </div>

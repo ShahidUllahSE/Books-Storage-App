@@ -10,8 +10,8 @@ const Home = () => {
       <div className="flex-1 m-2 -mt-12">
         <h1 className="text-3xl font-bold m-2 -mt-13">New Release This Week</h1>
         <p className="m-2 font-bold ">
-          It's time to update your reading list with some of the latest <br /> and greatest releases in the literary world,
-          heart-pumping thrillers<br /> to captivating memories, this week's new release offers something for everyone.
+          
+Embark on literary adventures with this curated selection of the latest releases. From heart-pumping thrillers that will keep you on the edge of your seat to captivating memoirs that unveil compelling life stories, this week's lineup promises diverse and engaging reads. Whether you seek escapism or introspection, these books offer something for everyone. Update your reading list and immerse yourself in the rich tapestry of storytelling that awaits you. Explore new worlds, unravel mysteries, and be captivated by the literary gems that this week has unveiled.
         </p>
       </div>
       <div className="flex-2 -mt-12">
