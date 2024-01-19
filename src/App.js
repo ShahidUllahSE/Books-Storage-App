@@ -13,6 +13,7 @@ import { NotificationContainer } from 'react-notifications';
 import Books from './components/Books';
 import Book from './components/Book';
 import Contact from './components/Contact';
+import AddBook from './components/AddBook';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Router>
           <Navbar />
           {/* <Registration/> */}
-          <Login/>
+          {/* <Login/> */}
 
           <Routes>
             <Route path='/home' element={<Home />} />
@@ -33,6 +34,8 @@ function App() {
             <Route path='/books' element={<Books />} />
             <Route path='/book' element={<Book/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='/addbook' element={<AddBook/>} />
+
 
             <Route path='*' element={<Error />} />
           </Routes>

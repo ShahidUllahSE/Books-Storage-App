@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+#loginform{
+    height: 300px;
+    width: 200px;
+    
+}
+
+#email{
+    width: 470px;
+    height: 50px;
+    /* background-color: gray;
+    color: white; */
+}
+
+#password{
+    width: 470px;
+    height: 50px;
+   
+}
