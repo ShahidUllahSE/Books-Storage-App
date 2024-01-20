@@ -1,6 +1,7 @@
 {
   "name": "books-store",
   "version": "0.1.0",
+  "homepage": "https://ShahidUllahSE.github.io/Books-Storage-App",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -42,8 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "tailwindcss": "^3.4.1"
-
-  },
-  "homepage": "https://ShahidUllahSE.github.io/Books-Storage-App"
+  }
 }
