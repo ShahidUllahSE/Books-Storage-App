@@ -21,6 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build": "react-scripts build --no-warnings-as-errors",
+
     "headed": "npx cypress open",
     "headless": "npx cypress run"
   },
