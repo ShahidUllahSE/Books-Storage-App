@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Books-Storage-App/static/css/main.449e1268.css",
+    "main.js": "/Books-Storage-App/static/js/main.3dffbf8c.js",
+    "static/js/787.7a3787be.chunk.js": "/Books-Storage-App/static/js/787.7a3787be.chunk.js",
+    "static/media/img1.png": "/Books-Storage-App/static/media/img1.cddfda7e5cd48d44a2b0.png",
+    "static/media/notification.svg?s3g3t9": "/Books-Storage-App/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/Books-Storage-App/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/Books-Storage-App/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/Books-Storage-App/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/Books-Storage-App/index.html",
+    "main.449e1268.css.map": "/Books-Storage-App/static/css/main.449e1268.css.map",
+    "main.3dffbf8c.js.map": "/Books-Storage-App/static/js/main.3dffbf8c.js.map",
+    "787.7a3787be.chunk.js.map": "/Books-Storage-App/static/js/787.7a3787be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.449e1268.css",
+    "static/js/main.3dffbf8c.js"
+  ]
+}
